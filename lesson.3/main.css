@@ -1,0 +1,9 @@
+#display {
+  font-size: 30px;
+  margin: 0 0 30px 30px;
+  letter-spacing: 3;
+}
+
+.btn {
+  padding: 10px;
+}
