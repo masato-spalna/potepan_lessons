@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  <!-- jqueryで実装する場合 -->
+        <link rel="stylesheet" href="main.css">
+        <title>電卓</title>
+    </head>
+
+    <body>
+        <div class="container">
+            
+            <input type="text" id="display" value="0">
+            <div class="btn_area">
+                <input type="button" value="7" onClick="number(this)">
+                <input type="button" value="8" onClick="number(this)">
+                <input type="button" value="9" onClick="number(this)">
+                <input type="button" value="+" onClick="set(this)">
+                <input type="button" value="4" onClick="number(this)">
+                <input type="button" value="5" onClick="number(this)">
+                <input type="button" value="6" onClick="number(this)">
+                <input type="button" value="-" onClick="set(this)">
+                <input type="button" value="1" onClick="number(this)">
+                <input type="button" value="2" onClick="number(this)">
+                <input type="button" value="3" onClick="number(this)">
+                <input type="button" value="*" onClick="set(this)">
+                <input type="button" value="0" onClick="number(this)">
+                <input type="button" value="00" onClick="number(this)">
+                <input type="button" value="." onClick="number(this)">
+                <input type="button" value="/" onClick="set(this)">
+                <input id="ac_btn" type="button" value="AC" onClick="reset()">
+                <input id="equal_btn" type="button" value="=" onClick="result()">
+            </div>
+        </div>
+        <script src="main.js"></script>
+</html>
