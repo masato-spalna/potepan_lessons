@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  <!-- jqueryで実装する場合 -->
+        <link rel="stylesheet" href="main.css">
+        <title>リアルタイムフィルター機能</title>
+    </head>
+
+    <body>
+      <div class="container">
+          <div class="realtime_filter_top">
+              <h2>リアルタイムフィルター</h2>
+              <p>入力した文字を含まない要素は非表示となります</p>
+              <form>
+                <input type="text" style="width:40%;" id ="search_filter" name="search-word" placeholder="検索ワードを入力">
+              </form>
+          </div>
+          <ul class="search_lists">
+            <li>
+              <img src="https://www.pakutaso.com/shared/img/thumb/MITTE0208009_TP_V.jpg" alt ="bird">
+              <p>キーワード</p>
+              <p class="keyword">鳥　とり　bird</p> 
+            </li>
+            <li>
+              <img src="https://www.pakutaso.com/shared/img/thumb/011kumakichi0327_TP_V.jpg" alt ="dog">
+              <p>キーワード</p>
+              <p class="keyword">犬　いぬ　dog</p> 
+            </li>
+            <li>
+              <img src="https://www.pakutaso.com/shared/img/thumb/tomcatDSC09085_TP_V.jpg" alt ="cat">
+              <p>キーワード</p>
+              <p class="keyword">猫　ねこ　cat</p> 
+            </li>
+            <li>
+              <img src="https://www.pakutaso.com/shared/img/thumb/054mushi20419_TP_V.jpg" alt ="wasp">
+              <p>キーワード</p>
+              <p class="keyword">蜂　はち　wasp</p> 
+            </li>
+          </ul>
+      </div>
+      
+        <script src="main.js"></script>
+    </body>
+</html>
