@@ -65,7 +65,6 @@ def janken
     
     if player_direction == random
       puts "あなたの負けです"
-      puts "終了します"
       return false
     else
       puts "じゃんけん..."
